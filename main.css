@@ -1,0 +1,28 @@
+body {
+    background: #f1f5f9;
+}
+
+.container {
+    background: #fff;
+}
+.special-container {
+    background: #fff;
+}
+.container:hover {
+    background: black;
+}
+.special-container:hover {
+    background: black;
+}
+
+h3{
+    color: #645cff;
+}
+
+/* .special-container {
+   background: rgba(0, 0, 0, 0.9);
+} */
+
+p {
+    color: grey;
+}
