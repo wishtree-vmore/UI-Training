@@ -1,30 +1,66 @@
-* {
-    margin: 0;
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: #f1f1f9;
+  margin: auto;
+}
+.card {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  max-width: 25rem;
+  margin: 20px;
+  border-radius: 1.5px;
+  border: 1px solid;
 }
 
-#navbar {
-    height: 5rem;
-    background: white;
+.card-1 {
+  border-color: #ff69a6;
 }
 
-.logo {
-    font-size: 20px;
-    color: rgb(255, 51, 0);
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 0 auto;
 }
 
-.hero {
-    color: white;
-    background: #000;
-    min-height: calc(100vh - 5rem);
+.card-1 .icon {
+  background: #ff69a6;
 }
 
-.hero span {
-    color: rgb(255, 51, 0);
-    font-size: 1.5rem;
+.title {
+  text-transform: capitalize;
+  letter-spacing: normal;
 }
 
-.hero-btn {
-    background: rgb(255, 51, 0);
-    color: white;
+.text {
+  line-height: 20px;
+  color: #64748b;
 }
 
+.btn {
+  text-transform: capitalize;
+  border: transparent;
+  border-radius: 3px;
+  padding: 5px 12px;
+}
+
+.btn-pink {
+  background: #ffe8f1;
+  color: #ff69a6;
+  border: 0.2px solid #ff69a6;
+}
+
+.btn-blue {
+  background: #ecf4ff;
+  color: #68a3ff;
+  border: 0.2px solid #68a3ff;
+}
+
+.card-2 .icon {
+  background: #68a3ff;
+}
+
+.card-2 {
+  border-color: #68a3ff;
+}
