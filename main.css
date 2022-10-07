@@ -1,27 +1,112 @@
-body {
-    font-family:Arial, Helvetica, sans-serif;
-    background: #f1f5f9;
-    line-height: 1.2rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.section {
-    padding: 5rem 0;
-    background: #fff;
+
+/*displayProp css*/
+.block {
+  background: blue;
+  color: white;
+  display: block;
+  /* display: inline; starts immediately after one element ends */
+  width: 500px;
+  margin: 1rem auto;
 }
-.section-title {
-    text-align: center;
-    text-transform: capitalize;
+
+.inline {
+  background: rgb(0, 0, 0);
+  color: white;
+  display: block;
+  width: 500px;
+  margin: 1rem auto;
+  padding: 2px;
+  /* forces to break and acquire the whole line */
+  /* display: inline-block; */
 }
-.title-underline {
-    height: 0.30rem;
-    width: 8rem;
-    background: blueviolet;
-    margin: 0 auto;
-    margin-bottom: 20px;
+
+.displayInline {
+  display: inline-block;
+  background: rgb(255, 146, 146);
+  height: 50px;
+  width: 300px;
 }
-.section-center {
-    max-width: 1170px;
-    width: 90vw;
-    margin: 0 auto;
-    margin-bottom: 2rem;
-    border: 2px solid red;
+
+.displayBlock {
+  display: inline;
+  background: rgb(158, 158, 255);
+  height: 50px;
+  width: 300px;
+}
+
+.displayInlineBlock {
+  display: block;
+  background: rgb(159, 255, 159);
+  height: 50px;
+  width: 300px;
+}
+
+/*index css*/
+ul li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  list-style-type: none;
+}
+ul li a {
+  color: rgb(255, 144, 66);
+  letter-spacing: 1px;
+  background: #222;
+  display: block;
+  /* margin: 10px 10px; */
+  padding: 5px;
+  /* text-align: center; */
+}
+
+/*borderBox css*/
+.box-1,
+.box-2,
+.box-3 {
+  max-width: 500px;
+  height: 200px;
+  color: white;
+}
+.box-1 {
+  background: rgb(0, 193, 122);
+  padding: 20px;
+  box-sizing: border-box;
+  /* box-sizing: content-box; box gets bigger than actual size */
+}
+.box-2 {
+  background: rgb(102, 0, 175);
+}
+.box-3 {
+  background: rgb(149, 5, 32);
+}
+
+/*visibility css*/
+div {
+  background: rgb(10, 196, 183);
+  margin: 8px;
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Courier New', Courier, monospace ;
+}
+
+.none {
+  display: none;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+
+.opacity-2 {
+  opacity: 0.7;
+}
+
+.opacity-3 {
+  opacity: 0.3;
+}
+
+.visibility {
+  visibility: hidden; /*hidden but space taken*/
 }
