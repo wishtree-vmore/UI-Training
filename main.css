@@ -1,0 +1,27 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background: #f1f5f9;
+    line-height: 1.2rem;
+}
+.section {
+    padding: 5rem 0;
+    background: #fff;
+}
+.section-title {
+    text-align: center;
+    text-transform: capitalize;
+}
+.title-underline {
+    height: 0.30rem;
+    width: 8rem;
+    background: blueviolet;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.section-center {
+    max-width: 1170px;
+    width: 90vw;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    border: 2px solid red;
+}
